@@ -1,15 +1,10 @@
 import Slider from "./components/Slider"
-
+import Slider2 from "./components/Slider2"
 function App() {
-	const person = {
-		name: 'Rob',
-		message: 'Hi Rob!',
-		emoji: "😁",
-		seatNumbers: [1,2,3,4]
-	}
 	return (
-		<div className='App bg-gray-400'>
+		<div className='App bg-gray-400 h-screen flex flex-col'>
 			<Slider/>
+			<Slider2/>
 		</div>
 	);
 }
